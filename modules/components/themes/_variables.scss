@@ -3,7 +3,7 @@
 $font-family: "Roboto", "Helvetica Neue", sans-serif !default;
 
 $tag-color: #444 !default;
-$tag-border-radius: 16px !default;
+$tag-border-radius: 0px !default;
 $tag-font-size: 1em !default;
 $tag-font-weight: 400 !default;
 $tag-letter-spacing: 0.05rem !default;
@@ -12,7 +12,7 @@ $tag-padding: 0.08rem 0.45rem !default;
 $tag-height: 32px !default;
 $tag-line-height: 34px !default;
 
-$input-font-size: 1em;
+$input-font-size: 0.9em;
 $input-padding: 0 0.5rem;
 $input-border: none;
 $input-height: 38px;
@@ -24,3 +24,5 @@ $container-margin: 0.1em 0 !default;
 $error-message-font-size: 0.8em !default;
 $error-message-margin: 0.5em 0 !default;
 $error-message-color: $color-error-default !default;
+
+$input-background: rgba(149, 150, 147, 0.1);
