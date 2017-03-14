@@ -12,6 +12,7 @@
 
     cursor: text;
     position: relative;
+    background-color: rgba(149, 150, 147, .1);
 }
 
 .ng2-tag-input:focus {
@@ -21,6 +22,7 @@
 .ng2-tags-container {
     flex-wrap: wrap;
     display: flex;
+    align-items: center;
 }
 
 // form
@@ -49,9 +51,4 @@
 .minimal.ng2-tag-input.ng2-tag-input--loading,
 .bootstrap.ng2-tag-input.ng2-tag-input--loading{
     border: none;
-}
-
-.ng2-menu-item--selected[_ngcontent-spx-1] {
-    background:red;
-    outline: 0;
 }

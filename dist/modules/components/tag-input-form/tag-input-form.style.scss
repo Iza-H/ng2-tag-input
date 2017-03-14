@@ -6,14 +6,20 @@
     display: inline;
     padding-left: $input-padding;
     vertical-align: middle;
+    color: rgba(149, 150, 147, 1);
 
     font-size: $input-font-size;
     height: $input-height;
     font-family: $font-family;
-    background-color: $input-background;
+    //background-color: $input-background;
+    background-color: transparent;
     margin: 0.1rem 0.2rem;
 }
 
 .ng2-tag-input__text-input:focus {
     outline: 0;
+    color: #ff0089;
 }
+   
+
+

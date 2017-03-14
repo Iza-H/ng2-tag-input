@@ -1,7 +1,10 @@
 .ng2-tag-input.default {
-    border-bottom: 2px solid map-get($color-primary, 'default');
+    // border-bottom: 2px solid map-get($color-primary, 'default');
+    border: none;
 }
 
 .default.ng2-tag-input--focused {
-    border-bottom: 2px solid map-get($color-focused, 'default');
+    //b order-bottom: 2px solid map-get($color-focused, 'default');
+    border: none;
 }
+
