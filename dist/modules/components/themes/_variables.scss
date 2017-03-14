@@ -6,18 +6,18 @@ $tag-color: #444 !default;
 $tag-border-radius: 0px !default;
 $tag-font-size: 0.9em !default;
 $tag-font-weight: 400 !default;
-$tag-letter-spacing: 0.05rem !default;
+$tag-letter-spacing: 0 !default;
 $tag-margin: 0.1rem 0.2rem !default;
 $tag-padding: 0.08rem 0.45rem !default;
-$tag-height: 30px !default;
-$tag-line-height: 30px !default;
+$tag-height: 28px !default;
+$tag-line-height: 28px !default;
 
 $input-font-size: 0.9em;
-$input-padding: 0 0.5rem;
+$input-padding: 5px;
 $input-border: none;
-$input-height: 30px;
+$input-height: 28px;
 
-$container-padding: 2px 0 !default;
+$container-padding: 0.25rem 0 !default;
 $container-height: 32px !default;
 $container-margin: 0.1em 0 !default;
 
