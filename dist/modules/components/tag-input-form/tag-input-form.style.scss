@@ -62,23 +62,44 @@
   font-size: 14px;
 }
 
+
+
 .ng2-tag-input__text-input:focus+.underline {
   transform: scale(1);
 }
 
 .underline {
-  background-color: #ff0089;
+  //background-color: #ff0089;
   display: inline-block;
-  height: 2px;
+  height: 3px;
   left: 0px;
   margin-top: -4px;
   position: absolute;
-  bottom: 0px;
+  bottom: -3px;
   width: 100%;
   -webkit-transform: scale(0, 1);
   transform: scale(0, 1);
   -webkit-transition: all 0.2s linear;
   transition: all 0.2s linear;
+}
+
+.empty-top {
+  background-color: rgba(149, 150, 147, 0.2);
+  display: inline-block;
+  height: 1px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.empty-bottom {
+  background-color: #ff0089;
+  display: inline-block;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 1;
 }
 
 
