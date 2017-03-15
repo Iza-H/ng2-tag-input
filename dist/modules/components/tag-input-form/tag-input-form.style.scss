@@ -3,23 +3,50 @@
 .ng2-tag-input__text-input {
     border: $input-border;
 
-    display: inline;
+    //display: inline;
     padding-left: $input-padding;
     vertical-align: middle;
-    color: rgba(149, 150, 147, 1);
+    color: #757372;
 
     font-size: $input-font-size;
     height: $input-height;
     font-family: $font-family;
     //background-color: $input-background;
     background-color: transparent;
-    margin: 0.1rem 0.2rem;
+    //margin: 0.1rem 0.2rem;
+    margin: 0.1rem 0rem;
+    font-size: 14px;
+    width: 344px;
 }
 
 .ng2-tag-input__text-input:focus {
     outline: 0;
-    color: #ff0089;
 }
-   
+.ng2-tag-input__text-input:focus::-webkit-input-placeholder {
+  color: #ff0089;
+  font-size: 14px;
+}
+.ng2-tag-input__text-input::-webkit-input-placeholder {
+  color: #757372;
+  font-size: 14px;
+}
+.ng2-tag-input__text-input:focus+.underline {
+  transform: scale(1);
+}
+
+.underline {
+  background-color: #ff0089;
+  display: inline-block;
+  height: 2px;
+  left: 0px;
+  margin-top: -4px;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  -webkit-transform: scale(0, 1);
+  transform: scale(0, 1);
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
 
 

@@ -1,5 +1,5 @@
 <!-- form -->
-<form (submit)="onSubmit.emit()" [formGroup]="form">
+<form (submit)="onSubmit.emit()" [formGroup]="form" class="form-control">
     <input #input
            type="text"
            class="ng2-tag-input__text-input"
@@ -16,4 +16,5 @@
            (keydown)="onKeyDown($event)"
            (keyup)="onKeyup.emit($event)"
     />
+    <span class="underline"></span>
 </form>
